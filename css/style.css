@@ -180,13 +180,13 @@ section.mobile {
           box-sizing: inherit;
   position: fixed;
   right: 0;
-  max-width: 10000px;
+  width: 75%;
   height: 100%;
   margin: auto;
   padding: 20px;
   border-left: 1px solid #e0e0e0;
-  -webkit-box-shadow: -200px 5px 200px #00000033;
-          box-shadow: -200px 5px 200px #00000033;
+  -webkit-box-shadow: -200px 5px 100px #00000033;
+          box-shadow: -200px 5px 100px #00000033;
   z-index: 20;
   background-color: whitesmoke;
 }
