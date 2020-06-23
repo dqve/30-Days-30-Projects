@@ -52,7 +52,7 @@ const paths = [
         circle_path: ["0.794","0.879","0.426","0.358"],
         cursor_path: "translate(237.609 317.757)",
         title: "Countless crypto options",
-        text: "We provide bitcoin and etherum currencies as well as our very own butter coins etc."
+        text: "We provide Bitcoin and Etherum currencies as well as our very own butter coins etc."
     },
     {
         id: "month",
@@ -76,7 +76,7 @@ const paths = [
         circle_path: ["0.15","0.209","0.644","0.559"],
         cursor_path: "translate(185.648 334.002)",
         title: "Invest in coins",
-        text: "Use our cryptocomb as a crypto cureency bank, open an acocunt and  It also allows you to invest directly in crypto."
+        text: "Use our 'cryptocomb' as a crypto currency bank. Opening an account allows you to invest directly in crypto."
     },
     {
         id: "day",
