@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="40" viewBox="0 0 175 85">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.4" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aaacf2"/>
+      <stop offset="1" stop-color="#162bed"/>
+    </linearGradient>
+  </defs>
+  <g id="logo" transform="translate(-140 -44)">
+    <g id="Group_804" data-name="Group 804">
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="42.5" cy="42.5" r="42.5" transform="translate(140 44)" fill="url(#linear-gradient)"/>
+      <g id="Group_803" data-name="Group 803">
+        <text id="B" transform="translate(178 104)" fill="#fff" font-size="50" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">B</tspan></text>
+        <text id="B-2" data-name="B" transform="matrix(-1, 0, 0, 1, 187, 104)" fill="#fff" font-size="50" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">B</tspan></text>
+        <rect id="Rectangle_1489" data-name="Rectangle 1489" width="6" height="50" transform="translate(175 61)" fill="#fff"/>
+        <rect id="Rectangle_1490" data-name="Rectangle 1490" width="6" height="50" transform="translate(185 61)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Bitfly" transform="translate(237 98)" fill="#0045e1" font-size="35" font-family="CenturyGothic-BoldItalic, Century Gothic" font-weight="700" font-style="italic"><tspan x="0" y="0">Bitfly</tspan></text>
+  </g>
+</svg>
