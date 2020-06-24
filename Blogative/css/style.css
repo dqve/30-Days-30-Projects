@@ -186,7 +186,7 @@ ul {
   }
   .img-wrapper01 .img01 {
     /*background: url('../images/doyin.jpg') no-repeat;*/
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url(../images/deji.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url(../images/deji.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0) 0%, black 100%), url(../images/deji.png);
     background-position: 50%;
     background-size: cover;
