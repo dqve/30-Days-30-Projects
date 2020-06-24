@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css?family=Tinos:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Poppins';
+  color: #fff;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  border: 0;
+  font-size: 1em;
+  border: 1px solid;
+}
+
+ul {
+  list-style: none;
+}
+
+.bg {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: rgba(178, 61, 61, 0.8);
+  z-index: -1;
+}
+
+@media screen and (max-width: 750px) {
+  .responsive {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.815);
+  }
+  .responsive p {
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    margin: 0 25%;
+  }
+  .responsive .error {
+    background: url("../images/error.svg");
+    position: fixed;
+    top: 30%;
+    left: 47.5%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+  }
+  .bg {
+    z-index: 15;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  /*=========================== NAVBAR ===========================*/
+  .responsive {
+    display: none;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 2% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+
+.navbar .title {
+  margin-right: 20%;
+  font-size: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.navbar .title .svg1, .navbar .title .svg2 {
+  position: fixed;
+  top: 1em;
+}
+
+.navbar .title .svg2 {
+  top: 8px;
+  left: 10px;
+}
+
+.navbar .categories {
+  margin-right: auto;
+}
+
+.navbar .categories ul li {
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 65%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.navbar .categories a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .categories a a::after {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.navbar .categories a a:hover {
+  text-decoration: underline;
+}
+
+.navbar .categories a a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+/* =========================== SOCIAL MEDIA =========================== */
+@media screen and (min-width: 1025px) {
+  .social {
+    position: absolute;
+    top: 35%;
+    right: -5.25%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .social ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 60%;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .social {
+    display: none;
+  }
+}
+
+/* =========================== IMAGES =========================== */
+@media screen and (min-width: 1025px) {
+  .img-wrapper01 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+  .img-wrapper01 .img01 {
+    /*background: url('../images/doyin.jpg') no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url(../images/deji.svg);
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, black 100%), url(../images/deji.svg);
+    background-position: 50%;
+    background-size: cover;
+    height: 75vh;
+    width: 350px;
+    opacity: 0;
+    -webkit-animation: image-appear 0.0001s linear forwards;
+            animation: image-appear 0.0001s linear forwards;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+  }
+  .img-wrapper01 .img01 img {
+    display: none;
+  }
+  .img-wrapper02 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .img-wrapper02 .img02 {
+    /* background: url('../images/story-5.jpg') no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, rgba(0, 0, 0, 0)), to(rgba(185, 61, 61, 0.5))), url(../images/story-8.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(185, 61, 61, 0.5) 100%), url(../images/story-8.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    opacity: 0;
+    -webkit-animation: image-appear 0.0001s linear forwards;
+            animation: image-appear 0.0001s linear forwards;
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+  }
+  .img-wrapper02 .img03 {
+    /* background: url('../images/story-5.jpg') no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.95))), url(../images/story-5.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.95) 100%), url(../images/story-5.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    opacity: 0;
+    -webkit-animation: image-appear 0.0001s linear forwards;
+            animation: image-appear 0.0001s linear forwards;
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .img-wrapper01 {
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+  }
+  .img-wrapper01 .img01 {
+    /*background: url('../images/doyin.jpg') no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url(../images/deji.svg);
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, black 100%), url(../images/deji.svg);
+    background-position: 50%;
+    background-size: cover;
+    height: 75vh;
+    width: 350px;
+    opacity: 0;
+    -webkit-animation: image-appear 0.0001s linear forwards;
+            animation: image-appear 0.0001s linear forwards;
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s;
+  }
+  .img-wrapper01 .img01 img {
+    display: none;
+  }
+  .img-wrapper02 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .img02 {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, rgba(0, 0, 0, 0)), to(rgba(185, 61, 61, 0.5))), url(../images/story-8.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(185, 61, 61, 0.5) 100%), url(../images/story-8.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    opacity: 0;
+    -webkit-animation: image-appear 0.0001s linear forwards;
+            animation: image-appear 0.0001s linear forwards;
+    -webkit-animation-delay: 2.4s;
+            animation-delay: 2.4s;
+  }
+}
+
+@-webkit-keyframes image-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes image-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+
+/* =========================== BLOCKS =========================== */
+.block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: rgba(178, 61, 61, 0.8);
+  -webkit-animation: block-appear 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+          animation: block-appear 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.img-wrapper02 .block {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+@-webkit-keyframes block-appear {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+@keyframes block-appear {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+/* =========================== TEXT =========================== */
+@media screen and (min-width: 1000px) {
+  .text {
+    position: absolute;
+    top: 45%;
+    right: -10%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .text {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    margin: 80% 10% 0 10%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 50%;
+  }
+}
+
+.text h1 {
+  font-size: 50px;
+  font-family: 'Tinos';
+  font-weight: lighter;
+  letter-spacing: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 90px;
+  width: auto;
+}
+
+.text h1 .hidetext {
+  position: absolute;
+}
+
+.text p {
+  font-size: 15px;
+  font-family: 'Tinos';
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  word-break: break-word;
+  white-space: pre-wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.text p .hidetext {
+  position: absolute;
+}
+
+.text2 {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .text2 {
+    position: absolute;
+    top: 45%;
+    right: -10%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .text2 {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    margin: 80% 10% 0 10%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 50%;
+  }
+}
+
+.text2 h1 {
+  font-size: 50px;
+  font-family: 'Tinos';
+  font-weight: lighter;
+  letter-spacing: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 90px;
+  width: auto;
+}
+
+.text2 h1 .hidetext {
+  position: absolute;
+}
+
+.text2 p {
+  font-size: 15px;
+  font-family: 'Tinos';
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  word-break: break-word;
+  white-space: pre-wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.text2 p .hidetext {
+  position: absolute;
+}
+
+/* =========================== DESC =========================== */
+.desc {
+  position: absolute;
+  bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.desc hr {
+  width: 100%;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+.desc ul {
+  margin-right: 25px;
+}
+
+.desc ul li {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.desc p {
+  width: 250px;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+/* =========================== SCROLLDOWN =========================== */
+@media screen and (min-width: 1025px) {
+  .scrolldown {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 110px;
+    left: -100px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .scrolldown::before {
+    content: "";
+    border: 1px solid #fff;
+    width: 100px;
+    margin: 0 20px 0 0;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    opacity: .5;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .scrolldown {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 110px;
+    left: -15%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .scrolldown::before {
+    content: "";
+    border: 1px solid #fff;
+    width: 100px;
+    margin: 0 20px 0 0;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    opacity: .5;
+    display: inline-block;
+  }
+}
+
+/* =========================== BOTTOMNAV =========================== */
+.bottomnav {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.bottomnav .next {
+  font-size: 10px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+.bottomnav .next::after {
+  content: "";
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 50%;
+  margin: 0 0 0 20px;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.bottomnav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottomnav ul {
+  background: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottomnav ul li {
+  padding: 5% 15px;
+  font-size: 25px;
+}
+
+.bottomnav ul li :hover {
+  cursor: pointer;
+}
+
+.bottomnav-img {
+  background: url("../images/story-2.jpg") no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.one {
+  background: url("../images/story-8.jpg") no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.two {
+  background: url("../images/story-2.jpg") no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.onebg {
+  background: url("http://127.0.0.1:5500/images/story-2.jpg") no-repeat;
+  background-color: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(185, 61, 61, 0.5) 100%);
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  opacity: 0;
+  -webkit-animation: image-appear 0.0001s linear forwards;
+          animation: image-appear 0.0001s linear forwards;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.twobg {
+  background: url("http://127.0.0.1:5500/images/story-8.jpg") no-repeat;
+  background-color: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(185, 61, 61, 0.5) 100%);
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  opacity: 0;
+  -webkit-animation: image-appear 0.0001s linear forwards;
+          animation: image-appear 0.0001s linear forwards;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+/*# sourceMappingURL=style.css.map */
