@@ -95,19 +95,19 @@ ul {
 .navbar .title {
   margin-right: 20%;
   font-size: 100%;
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
 }
 
 .navbar .title .svg1, .navbar .title .svg2 {
   position: fixed;
-  top: 1em;
+  top: 1.5em;
+  left: 5%;
 }
 
 .navbar .title .svg2 {
-  top: 8px;
-  left: 10px;
+  top: 2em;
+  left: 6%;
 }
 
 .navbar .categories {
@@ -124,14 +124,13 @@ ul {
 }
 
 .navbar .categories a {
-  cursor: pointer;
   text-decoration: none;
   color: inherit;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.navbar .categories a a::after {
+.navbar .categories a::after {
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
@@ -142,15 +141,16 @@ ul {
           transform-origin: right;
 }
 
-.navbar .categories a a:hover {
-  text-decoration: underline;
-}
-
-.navbar .categories a a:hover::after {
+.navbar .categories a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: left;
           transform-origin: left;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* =========================== SOCIAL MEDIA =========================== */
@@ -599,7 +599,7 @@ ul {
   font-size: 25px;
 }
 
-.bottomnav ul li :hover {
+.bottomnav ul li:hover {
   cursor: pointer;
 }
 
