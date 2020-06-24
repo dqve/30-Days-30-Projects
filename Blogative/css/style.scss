@@ -93,16 +93,16 @@
     .title {
         margin-right: 20%;
         font-size: 100%;
-        text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: 600;
         .svg1, .svg2 {
             position: fixed;
-            top: 1em;
+            top: 1.5em;
+            left: 5%;
           }
         .svg2{
-            top: 8px;
-            left: 10px;
+            top: 2em;
+            left: 6%;
         }
     }
 
@@ -118,26 +118,25 @@
         font-weight: 500;
         }
         a {
-            cursor: pointer;
             text-decoration: none;
             color: inherit;
             transition: 0.5s;
-
-            a::after{
-                transition: transform 0.5s;
-                transform: scaleX(0);
-                transform-origin: right;
-            }
-        
-        a:hover {
-            text-decoration: underline;
-            }
+        }
+        a::after{
+            transition: transform 0.5s;
+            transform: scaleX(0);
+            transform-origin: right;
+        }
+    
         a:hover::after {
             transform: scaleX(1);
             transform-origin: left;
             }
         }
-    }
+        li:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            }
 }
 
     /* =========================== SOCIAL MEDIA =========================== */
@@ -521,11 +520,10 @@
         li {
         padding: 5% 15px;
         font-size: 25px;
+        }
 
-            :hover{
-                cursor: pointer;
-            }
-
+        li:hover{
+            cursor: pointer;
         }
     }
     }
@@ -576,3 +574,4 @@
         animation: image-appear 0.0001s linear forwards;
         animation-delay: 2.4s;
     }
+
