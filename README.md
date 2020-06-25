@@ -19,3 +19,5 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 **Day2:** [Blogative](https://bit.ly/2Z294Jq)
 *Repo:*   [Blogative Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Blogative)
 
+**Day2:** [Define Design](https://dqve.github.io/30-Days-30-Projects/Define%20Design/)
+*Repo:*   [Define Design Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Define%20Design)
