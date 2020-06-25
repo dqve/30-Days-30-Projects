@@ -10,7 +10,13 @@ body {
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 700px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 699px) {
   body {
     background: url("../images/dd_bg.svg");
   }
@@ -35,10 +41,6 @@ hr {
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
-}
-
-nav, button {
-  text-transform: uppercase;
 }
 
 button {
@@ -142,16 +144,8 @@ button {
     float: left;
     margin-top: 1%;
   }
-  header .left-nav .search {
-    background: url("../images/search.svg");
-    height: 8em;
-    width: 12em;
-    background-repeat: no-repeat;
-    margin-left: 1%;
-    margin-top: 1%;
-  }
   header nav {
-    color: #0045e1;
+    color: #ffffff;
     position: absolute;
     right: 1.5%;
   }
@@ -165,13 +159,17 @@ button {
     padding: 10px 20px;
   }
   header nav button {
-    border-color: #0045e1;
-    border-width: .125em;
-    color: #0045e1;
-    height: 2.5em;
-    width: 7.5em;
-    background-color: #0043e100;
+    background-image: url("../images/signup.svg");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    height: 3.25em;
+    border: none;
+    width: 9em;
     font-weight: 600;
+  }
+  header nav button .text {
+    padding-bottom: 100px;
   }
 }
 
@@ -269,6 +267,10 @@ section.mobile .button {
   .mobile-top {
     display: none;
   }
+}
+
+section.hero {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 699px) {
@@ -384,121 +386,218 @@ section.mobile .button {
 
 @media screen and (min-width: 700px) {
   section.hero {
-    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*.content {
+            margin: 0 10%;
+            padding-top: 20px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            img {              
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+                box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
+            }
+            .img {
+                padding-bottom: 15px;
+                .play {
+                    background: url('../images/play.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 100px;
+                    width: 100px;
+                    padding: 0;
+                    position: absolute;
+                    left: 35%;
+                    margin-top: 10%;
+                }
+            }
+        }*/
   }
   section.hero .hero-content {
-    margin-left: 6.8%;
-    max-width: 350px;
-    position: absolute;
-    top: 30%;
-    z-index: 9;
+    margin: 15% 5%;
+    margin-left: 10%;
+    text-align: center;
   }
-  section.hero .side-line1 {
-    width: 2%;
-    border-width: .5px;
-    border-color: #00000067;
-    position: absolute;
-    top: 35%;
-  }
-  section.hero h1 {
+  section.hero .hero-content h1 {
     font-family: inherit;
-    font-size: 2.4em;
+    font-weight: 400;
+    font-size: 250%;
     word-wrap: break-word;
     overflow: hidden;
     line-height: 1.5em;
     margin-bottom: .5em;
+    letter-spacing: 5px;
+    color: white;
   }
-  section.hero p {
-    font-size: 1em;
-    font-weight: 600;
+  section.hero .hero-content h1 br {
+    display: none;
+  }
+  section.hero .hero-content p {
+    font-size: 1.5em;
+    font-weight: 400;
     margin-bottom: 1em;
     line-height: 1.5em;
-    word-spacing: .2em;
-    width: 19em;
+    word-spacing: .1em;
+    width: 20em;
     margin-bottom: 2em;
-    color: #524D4D;
-  }
-  section.hero .gs-btn {
-    background-position: center;
-    background-color: #0045E1;
-    height: 2.5em;
-    width: 9em;
-    border-color: #0045e1;
     color: white;
-    padding: 10px;
+    text-align: center;
+  }
+  section.hero .hero-content .gs-btn {
+    background-position: center;
+    background-image: url(../images/gs_btn.svg);
+    height: 2.5em;
+    width: 10em;
+    border-color: rgba(245, 222, 179, 0);
+    border-radius: 25px;
+    color: white;
+    padding: 7px;
+    text-transform: none;
     margin-right: 15px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12x;
     position: relative;
     z-index: 1;
+    text-align: center;
   }
-  section.hero .socials {
+  section.hero .date {
+    color: white;
+    position: absolute;
+    top: 23.5%;
+    left: 16.5%;
+  }
+  section.hero .side-line1 {
+    width: 15%;
+    border: 1px solid #ffffff;
+    background-color: white;
+    color: white;
+    position: absolute;
+    top: 24.5%;
+  }
+  section.hero .content {
+    position: relative;
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 30%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    z-index: 20;
   }
-}
-
-@media screen and (min-width: 700px) and (min-width: 700px) and (max-width: 900px) {
-  section.hero .socials {
+  section.hero .img {
+    position: absolute;
+    top: 10%;
+    font-size: 90px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 80%;
+    width: calc(100% / 3);
+    width: 100%;
+  }
+  section.hero .img img {
+    padding-right: .25em;
+    height: 80%;
+  }
+  section.hero .img .start {
+    padding-right: 600px;
+    height: 500px;
+  }
+  section.hero .img .play {
+    background: url("../images/play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    top: 20%;
+    left: 32.5%;
     margin-top: 10%;
   }
-}
-
-@media screen and (min-width: 700px) {
-  section.hero .socials div {
-    height: 2em;
-    width: 2.3em;
-    background-repeat: no-repeat;
+  section.hero .content-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
   }
-  section.hero .socials .twitter {
-    background: url("../images/twitter.svg");
-    background-repeat: no-repeat;
-    margin: 0 5px 0 0;
-  }
-  section.hero .socials .facebook {
-    background: url("../images/facebook.svg");
-    background-repeat: no-repeat;
-  }
-  section.hero .socials .instagram {
-    background: url("../images/instagram.svg");
-    background-repeat: no-repeat;
-  }
-  section.hero .socials hr {
-    width: 45%;
-    border-width: .25px;
-    border-color: #0043e19f;
-    position: absolute;
-    top: 94.25%;
-    left: 35%;
-  }
-  section.hero .phone {
+  section.hero .chat {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
-    height: 300px;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
-  section.hero .phone svg {
-    position: absolute;
-    right: 20%;
-    bottom: 0;
-    width: 38.9%;
-    height: auto;
-    z-index: 1;
-  }
-  section.hero .chat {
+    background-image: url("../images/chat-white.svg");
     background-repeat: no-repeat;
     position: absolute;
     right: 10%;
-    bottom: 15%;
-    height: .1em;
-    width: .3em;
+    bottom: 2%;
+    height: 5.1em;
+    width: 5.3em;
     z-index: 1;
+  }
+  section.hero .hr {
+    width: 10%;
+    /*border-width: .5px;
+            border-color: #ffffff;*/
+    border: 2px solid #ffffff;
+    position: absolute;
+    bottom: 10.5%;
+    right: 0%;
+  }
+  section.hero .top {
+    background-image: url("../images/top.svg");
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  section.hero .left {
+    background-image: url("../images/left.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  section.hero .bottom {
+    background-image: url("../images/bottom.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -70%;
+    left: 25%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  section.hero .right {
+    background-image: url("../images/right.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: -55%;
+    top: -40%;
+    z-index: -1;
+    overflow: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
