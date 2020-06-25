@@ -17,5 +17,5 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 
 **Day2:** [Blogative](https://bit.ly/2Z294Jq)
-*Repo:*   [Blogative Repo](https://dqve.github.io/30-Days-30-Projects/Blogative/)
+*Repo:*   [Blogative Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Blogative)
 
