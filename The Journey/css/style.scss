@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Raiderfont';
+    src: local("Raiderfont"), url('./fonts/Raiderfont.ttf') format("truetype");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .left, .right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .left {
+    background: linear-gradient(#2D75C8 75%, #033EB9 100%);
+    left: 0%;
+    width: 0%;
+  }
+  
+  .right {
+    background: #191919;
+    right: 0%;
+    width: 100%;
+  }
+  
+  .nav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      padding: 0 20px;
+  
+      li {
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 8px;
+        font-weight: 600;
+        padding: 0 30px;
+      }
+    }
+  
+    .logo {
+      flex: 1;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+  
+    .menu {
+      flex: 1;
+      font-size: 18px;
+    }
+  
+    .collection {
+      flex: 1;
+    }
+  
+    .explore {
+      flex: 4;
+    }
+  
+    .search {
+      flex: 3;
+    }
+  
+    .profile {
+      flex: 0;
+  
+      .img {
+        background-image: url('./img/ebuka.jpg');
+        background-position: 50%;
+        background-size: cover;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+    }
+  }
+  
+  .img-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+  
+    .karina {
+      background-image: url('./img/model-2.jpg');
+      background-size: cover;
+      height: 550px;
+      width: 0;
+    }
+  }
+  
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 10px;
+  
+    ul li {
+      display: inline-block;
+      padding: 20px 25px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 8px;
+      font-weight: 600;
+    }
+  
+    i {
+      font-size: 18px;
+    }
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+  
+    h1 {
+      font-size: 90px;
+      color: #fff;
+      font-family: 'Raiderfont';
+      text-transform: uppercase;
+    }
+  
+    p {
+      font-size: 20px;
+      color: #fff;
+      font-family: monospace;
+    }
+  }
+  
+  .name {
+    position: absolute;
+    top: 50%;
+    left: -270px;
+    transform: translateY(-50%);
+    font-size: 90px;
+    font-family: 'Raiderfont';
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+  }
+  
+  .bottomnav {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  
+    ul li {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 15px;
+      margin-top: 20px;
+  
+      &:nth-child(2) {
+        font-weight: bolder;
+  
+        &::before {
+          content: "";
+          display: inline-block;
+          border: 1px solid #fff;
+          width: 65px;
+          margin: 0 10px 0 -78px;
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
