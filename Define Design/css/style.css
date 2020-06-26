@@ -10,13 +10,13 @@ body {
           box-sizing: border-box;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 770px) {
   body {
     overflow: hidden;
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 769px) {
   body {
     background: url("../images/dd_bg.svg");
   }
@@ -250,7 +250,7 @@ section.mobile .button {
   z-index: 1;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 769px) {
   .mobile-top {
     /*background-image: url("../images/mobile-top.svg");*/
     margin: 0;
@@ -263,7 +263,7 @@ section.mobile .button {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 770px) {
   .mobile-top {
     display: none;
   }
@@ -273,7 +273,7 @@ section.hero {
   overflow: hidden;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 769px) {
   section.hero {
     position: absolute;
     top: 25%;
@@ -384,7 +384,7 @@ section.hero {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 770px) {
   section.hero {
     display: -webkit-box;
     display: -ms-flexbox;
