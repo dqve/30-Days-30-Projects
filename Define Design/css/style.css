@@ -350,7 +350,7 @@ section.hero {
   section.hero .content {
     margin: 0 10%;
     padding-top: 20px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     margin-bottom: 0;
   }
   section.hero .content img {
@@ -361,7 +361,7 @@ section.hero {
             box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
   }
   section.hero .content .img {
-    padding-bottom: 15px;
+    padding-bottom: .25em;
   }
   section.hero .content .img .play {
     background: url("../images/play.svg");
