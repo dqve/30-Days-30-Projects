@@ -29,183 +29,174 @@ ul {
   z-index: -1;
 }
 
-.left {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, #2D75C8), to(#033EB9));
-  background: linear-gradient(#2D75C8 75%, #033EB9 100%);
-  left: 0%;
-  width: 0%;
+@media screen and (max-width: 769px) {
+  .left {
+    background: #2d75c8;
+    background: linear-gradient(45deg, #2d75c8 28%, #033eb9 90%);
+    left: 0%;
+    width: 0%;
+  }
+  .right {
+    display: none;
+  }
 }
 
-.right {
-  background: #191919;
-  right: 0%;
-  width: 100%;
-}
-
-.nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 80px;
-  padding: 0 20px;
-}
-
-.nav ul li {
-  display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 8px;
-  font-weight: 600;
-  padding: 0 30px;
-}
-
-.nav .logo {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  font-size: 18px;
-  letter-spacing: 0;
-}
-
-.nav .menu {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  font-size: 18px;
-}
-
-.nav .collection {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.nav .explore {
-  -webkit-box-flex: 4;
-      -ms-flex: 4;
-          flex: 4;
-}
-
-.nav .search {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-}
-
-.nav .profile {
-  -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
-}
-
-.nav .profile .img {
-  background-image: url("./img/ebuka.jpg");
-  background-position: 50%;
-  background-size: cover;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-}
-
-.img-wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 180px;
-}
-
-.img-wrapper .karina {
-  background-image: url("./img/model-2.jpg");
-  background-size: cover;
-  height: 550px;
-  width: 0;
-}
-
-.info {
-  position: absolute;
-  bottom: 0;
-  left: 180px;
-  background: rgba(0, 0, 0, 0.8);
-  padding: 0 10px;
-}
-
-.info ul li {
-  display: inline-block;
-  padding: 20px 25px;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 8px;
-  font-weight: 600;
-}
-
-.info i {
-  font-size: 18px;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  right: 100px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.text h1 {
-  font-size: 90px;
-  color: #fff;
-  font-family: 'Raiderfont';
-  text-transform: uppercase;
-}
-
-.text p {
-  font-size: 20px;
-  color: #fff;
-  font-family: monospace;
-}
-
-.name {
-  position: absolute;
-  top: 50%;
-  left: -270px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  font-size: 90px;
-  font-family: 'Raiderfont';
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 2px #fff;
-}
-
-.bottomnav {
-  position: absolute;
-  bottom: 100px;
-  right: 100px;
-}
-
-.bottomnav ul li {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 15px;
-  margin-top: 20px;
-}
-
-.bottomnav ul li:nth-child(2) {
-  font-weight: bolder;
-}
-
-.bottomnav ul li:nth-child(2)::before {
-  content: "";
-  display: inline-block;
-  border: 1px solid #fff;
-  width: 65px;
-  margin: 0 10px 0 -78px;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+@media screen and (min-width: 770px) {
+  .left {
+    background: #2d75c8;
+    background: linear-gradient(45deg, #2d75c8 28%, #033eb9 90%);
+    left: 0%;
+    width: 0%;
+  }
+  .right {
+    background: #191919;
+    right: 0%;
+    width: 100%;
+  }
+  .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 80px;
+    padding: 0 20px;
+  }
+  .nav ul li {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 0 30px;
+  }
+  .nav .logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+  .nav .menu {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 18px;
+  }
+  .nav .collection {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .nav .explore {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  .nav .search {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  .nav .profile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+  .nav .profile .img {
+    background-image: url("./img/ebuka.jpg");
+    background-position: 50%;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .img-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+  }
+  .img-wrapper .karina {
+    background-image: url("./img/model-2.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 0;
+  }
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 10px;
+  }
+  .info ul li {
+    display: inline-block;
+    padding: 20px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .info i {
+    font-size: 18px;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .text h1 {
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Raiderfont';
+    text-transform: uppercase;
+  }
+  .text p {
+    font-size: 20px;
+    color: #fff;
+    font-family: monospace;
+  }
+  .name {
+    position: absolute;
+    top: 50%;
+    left: -270px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 90px;
+    font-family: 'Raiderfont';
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+  }
+  .bottomnav {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+  .bottomnav ul li {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-top: 20px;
+  }
+  .bottomnav ul li:nth-child(2) {
+    font-weight: bolder;
+  }
+  .bottomnav ul li:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 65px;
+    margin: 0 10px 0 -78px;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
 }
 /*# sourceMappingURL=style.css.map */
