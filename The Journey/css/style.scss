@@ -39,8 +39,38 @@
       .right {
         display: none;
       }
-}
 
+      .nav {
+            ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            padding: 0 20px;
+        
+            li {
+                display: inline-block;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-size: 8px;
+                font-weight: 600;
+                padding: 0 30px;
+            }
+        }
+    
+            .logo {
+            flex: 1;
+            font-size: 18px;
+            letter-spacing: 0;
+            }
+        
+            .menu {
+            flex: 1;
+            font-size: 18px;
+            }
+        }
+    }
 
 @media screen and (min-width: 770px){
     .left {
