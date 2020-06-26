@@ -209,4 +209,3 @@ const navigator = (i) => {
     function hamBurger() {
         tween.reversed() ? tween.play() : tween.reverse();
     }
-
