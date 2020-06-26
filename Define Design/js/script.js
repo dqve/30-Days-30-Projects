@@ -31,8 +31,6 @@ document.querySelector(".menu").addEventListener("click", hamBurger);
 document.querySelector(".toggle").addEventListener("click", hamBurger);
 
 function hamBurger() {
-    console.log("work")
     tween.reversed() ? tween.play() : tween.reverse();
 }
-console.log("work")
 document.querySelector("#menu").onClick = hamBurger
