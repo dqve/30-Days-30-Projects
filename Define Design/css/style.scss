@@ -9,11 +9,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1;
     box-sizing: border-box;
-    @media screen and (min-width: 700px){
+    @media screen and (min-width: 770px){
         overflow: hidden;
     }
 
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 769px) {
         background: url("../images/dd_bg.svg");
         .lines {
             display: none;
@@ -229,7 +229,7 @@ section.mobile{
     }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 769px) {
     .mobile-top {
         /*background-image: url("../images/mobile-top.svg");*/
         margin: 0;
@@ -241,7 +241,7 @@ section.mobile{
         left: -20%;
     }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 770px) {
     .mobile-top {
         display: none;
     }
@@ -249,7 +249,7 @@ section.mobile{
 
 section.hero {
     overflow: hidden;
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 769px) {
         position: absolute;
         top: 25%;
         .side-line1 {
@@ -365,7 +365,7 @@ section.hero {
         }
     }
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 770px) {
         display: flex;
         .hero-content {
             margin: 15% 5%;
