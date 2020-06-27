@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raiderfont';
-    src: local("Raiderfont"), url('./fonts/Raiderfont.ttf') format("truetype");
+    src: local("Raiderfont"), url('../fonts/Raiderfont.ttf') format("truetype");
   }
   
   * {
@@ -200,10 +200,11 @@
                     list-style: none;
                 }
                 display: none;
-            }
+        }
     
-            nav {
-                display: none;}
+        nav {
+            display: none;
+        }
         @media screen and (min-width: 770px) {
             position: fixed;
             top: 0;
@@ -241,7 +242,7 @@
             color: #ffffff;
             position: absolute;
             top: 0%;
-            right: -5%;
+            right: -2.5%;
             #menu{
                 background: url("../img/Adams\ menu.png");
                 height: 2em;
@@ -260,7 +261,8 @@
                     padding: 10px 20px;
                 }
                 .active{
-                    border-bottom: .0002px solid blue;
+                    border-bottom: url("../img/active.svg") 2px no-repeat;
+                    
                 }
             }
             .social {
@@ -299,13 +301,33 @@
     }
 
     .content {
+       .left-content{
+           position: absolute;
+           top: 20%;
+           left: 7%;
+           .title{
+               color: white;
+               font-size: 35px;
+               font-weight: 600;
+                hr{
+                    width: 20%;
+                    border: 1.5px solid #ffffff;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 10%;
+                    left: 35%;
+                }
+           }
+       }
+       
+        .content-inner{
         position: absolute;
         top: 0;
-        right: 25%;
-        img {
+        right: 22.5%;
+        .desert {
             box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
-            height: 90%;
-            width: auto;
+            height: 100%;
+            width: 0;
         }
         .img {
             padding-bottom: .25em;
@@ -320,5 +342,6 @@
                 left: 0%;
             }
         }
+       }
     }
 }
