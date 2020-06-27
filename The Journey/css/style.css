@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Raiderfont';
-  src: local("Raiderfont"), url("./fonts/Raiderfont.ttf") format("truetype");
+  src: local("Raiderfont"), url("../fonts/Raiderfont.ttf") format("truetype");
 }
 
 * {
@@ -263,7 +263,7 @@ section.mobile .button {
     color: #ffffff;
     position: absolute;
     top: 0%;
-    right: -5%;
+    right: -2.5%;
   }
   nav #menu {
     background: url("../img/Adams menu.png");
@@ -285,7 +285,7 @@ section.mobile .button {
     padding: 10px 20px;
   }
   nav ul .active {
-    border-bottom: .0002px solid blue;
+    border-bottom: url("../img/active.svg") 2px no-repeat;
   }
   nav .social {
     display: -webkit-box;
@@ -324,21 +324,39 @@ section.mobile .button {
 }
 
 @media screen and (min-width: 770px) {
-  .content {
+  .content .left-content {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+  }
+  .content .left-content .title {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .content .left-content .title hr {
+    width: 20%;
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+  }
+  .content .content-inner {
     position: absolute;
     top: 0;
-    right: 25%;
+    right: 22.5%;
   }
-  .content img {
+  .content .content-inner .desert {
     -webkit-box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
             box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
-    height: 90%;
-    width: auto;
+    height: 100%;
+    width: 0;
   }
-  .content .img {
+  .content .content-inner .img {
     padding-bottom: .25em;
   }
-  .content .img .play {
+  .content .content-inner .img .play {
     background: url("../img/play.svg");
     background-repeat: no-repeat;
     background-position: center;
