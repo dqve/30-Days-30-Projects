@@ -25,7 +25,8 @@ if (window.matchMedia("(min-width: 769px)").matches) {
     width: '35%',
     ease: Power3.easeInOut
   })
-/*
+
+
   TweenMax.from('.nav', 2, {
     delay: .8,
     opacity: 0,
@@ -45,7 +46,7 @@ if (window.matchMedia("(min-width: 769px)").matches) {
   })
 
   TweenMax.to('.desert', 1, {
-    delay: 2.75,
+    delay: 3,
     width: '375px',
     ease: Power2.easeInOut
   })
@@ -58,6 +59,7 @@ if (window.matchMedia("(min-width: 769px)").matches) {
 
   TweenMax.from('.info', 2, {
     delay: 1.5,
+    opacity: 0,
     y: 100,
     ease: Circ.easeInOut
   })
@@ -67,4 +69,3 @@ if (window.matchMedia("(min-width: 769px)").matches) {
     x: -600,
     ease: Circ.easeInOut
   })
-  */
