@@ -25,7 +25,7 @@ if (window.matchMedia("(min-width: 769px)").matches) {
     width: '35%',
     ease: Power3.easeInOut
   })
-
+/*
   TweenMax.from('.nav', 2, {
     delay: .8,
     opacity: 0,
@@ -67,3 +67,4 @@ if (window.matchMedia("(min-width: 769px)").matches) {
     x: -600,
     ease: Circ.easeInOut
   })
+  */
