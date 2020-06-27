@@ -299,12 +299,13 @@
             display: none;
         }
     }
-
+    
     .content {
        .left-content{
            position: absolute;
            top: 20%;
            left: 7%;
+           color: white;
            .title{
                color: white;
                font-size: 35px;
@@ -315,10 +316,32 @@
                     border-radius: 5px;
                     position: absolute;
                     top: 10%;
-                    left: 35%;
+                    left: 60%;
                 }
-           }
-       }
+            }
+            .author {
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 25px;
+                max-width: 75%;
+                .image{
+                    background-repeat: no-repeat;
+                    height: 30%;
+                    width: 35%;
+                }
+                .adams{
+                    position: relative;
+                    top: 20%;
+                }
+            }
+            
+            p{
+                flex: 2;
+                width: 300px;
+                padding-top: 20px;
+            }
+        }
+    }
        
         .content-inner{
         position: absolute;
@@ -343,5 +366,4 @@
             }
         }
        }
-    }
-}
+    
