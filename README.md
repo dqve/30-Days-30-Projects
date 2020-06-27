@@ -20,3 +20,6 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 **Day3:** [Define Design](https://dqve.github.io/30-Days-30-Projects/Define%20Design/)
 *Repo:*   [Define Design Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Define%20Design)
+
+**Day4:** [The Journey](https://dqve.github.io/30-Days-30-Projects/The%20Journey/)
+*Repo:*   [The Journey Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/The%20Journey)
