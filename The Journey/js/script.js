@@ -44,9 +44,9 @@ if (window.matchMedia("(min-width: 769px)").matches) {
     ease: Circ.easeInOut
   })
 
-  TweenMax.to('.karina', 2, {
-    delay: 1.5,
-    width: '800px',
+  TweenMax.to('.desert', 1, {
+    delay: 2.75,
+    width: '375px',
     ease: Power2.easeInOut
   })
 
