@@ -354,56 +354,51 @@ section.mobile .button {
   }
   .content .left-content .author .image {
     background-repeat: no-repeat;
-    height: 3   0%;
+    height: 30%;
     width: 35%;
   }
-  .content .left-content .author .adam {
-    line-height: 4.5;
-    margin-top: 50%;
+  .content .left-content .author .adams {
     position: absolute;
-    top: 20%;
+    top: 35%;
+    left: 15.5%;
+    margin: 0 50px;
   }
-  .content .left-content .author .adam span {
-    padding: 20px;
+  .content .left-content .author .adams .adam-tag {
+    color: rgba(255, 255, 255, 0.445);
   }
-  .content .left-content .author .adam-tag {
-    color: #7a7a7a;
-    padding-top: 50px;
+  .content .left-content .author p {
+    width: 400px;
+    padding: 25px 0;
+    line-height: 20px;
   }
-  .content p {
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
-    width: 300px;
-    padding-top: 20px;
+  .content .left-content .author .sign img {
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 50%;
   }
-}
-
-.content-inner {
-  position: absolute;
-  top: 0;
-  right: 22.5%;
-}
-
-.content-inner .desert {
-  -webkit-box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
-          box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
-  height: 100%;
-  width: 0;
-}
-
-.content-inner .img {
-  padding-bottom: .25em;
-}
-
-.content-inner .img .play {
-  background: url("../img/play.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  position: absolute;
-  left: 0%;
+  .content-inner {
+    position: absolute;
+    top: 0;
+    right: 22.5%;
+  }
+  .content-inner .desert {
+    -webkit-box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
+            box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.411);
+    height: 100%;
+    width: 0;
+  }
+  .content-inner .img {
+    padding-bottom: .25em;
+  }
+  .content-inner .img .play {
+    background: url("../img/play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    left: 0%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

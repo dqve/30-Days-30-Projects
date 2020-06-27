@@ -330,16 +330,29 @@
                     width: 35%;
                 }
                 .adams{
-                    position: relative;
-                    top: 20%;
+                    position: absolute;
+                    top: 35%;
+                    left: 15.5%;
+                    margin: 0 50px;
+                    .adam-tag{
+                        color: rgba(255, 255, 255, 0.445);
+                    }
+                }
+                p{
+                    width: 400px;
+                    padding: 25px 0;
+                    line-height: 20px;
+                }
+                .sign{
+                    img{
+                        background-repeat: no-repeat;
+                        height: 70%;
+                        width: 50%;
+                    }
                 }
             }
             
-            p{
-                flex: 2;
-                width: 300px;
-                padding-top: 20px;
-            }
+           
         }
     }
        
@@ -366,4 +379,4 @@
             }
         }
        }
-    
+}
