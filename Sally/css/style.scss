@@ -8,7 +8,10 @@ body {
     box-sizing: border-box;
 
     @media screen and (max-width: 769px) {
-        background: url("../images/bitfly\ Mobile\ –\ 1.svg");
+        background: url("../images/mobile-bg.svg");
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100%;
         .lines {
             display: none;
         }
@@ -71,14 +74,6 @@ header {
                 float: left;
                 margin-top: 10px;
             }
-            .search {
-                background: url('../images/search.svg');
-                height: 8em;
-                width: 2em;
-                background-repeat: no-repeat;
-                margin-left: 7em;
-                margin-top: 8px;
-            }
         }
 
         div{
@@ -104,7 +99,7 @@ header {
         left: 0;
         right: 0;
         z-index: 2;
-        padding: 20px;
+        padding: 50px;
         margin: 0 5%;
         display: flex;
         flex-direction: row;
@@ -137,7 +132,7 @@ header {
         }
 
         nav {
-            color: #0045e1;
+            color: #ffffff;
             position: absolute;
             right: 1.5%;
             ul {
@@ -151,12 +146,13 @@ header {
                 }
             }
             button {
-                border-color: #0045e1;
+                border-color: #ffffff;
                 border-width: .125em;
-                color: #0045e1;
+                color: #000000;
+                border-radius: 5px;
                 height: 2.5em;
                 width: 7.5em;
-                background-color: #0043e100;
+                background-color: #ffffff;
                 font-weight: 600;
             }
         }
@@ -172,10 +168,10 @@ section.mobile{
     height: 100%;
     margin: auto;
     padding: 20px;
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e000;
     box-shadow: -200px 5px 100px #00000033;
     z-index: 20;
-    background-color: whitesmoke;
+    background-color: rgb(53, 53, 53);
     .menu {
         list-style-type: none;
         margin: 0;
@@ -188,7 +184,7 @@ section.mobile{
         list-style: none;
         max-width: 10000px;
         align-items: center;
-        color: #0045e1;
+        color: #ffffff;
         
         li {
             font-size: 25px;
@@ -200,7 +196,13 @@ section.mobile{
             padding: 10px 20px;
         }
     }
-
+    
+    .appstore {
+        background-repeat: no-repeat;
+        img{
+            margin: 5% 20%;
+        }
+    }
     .socials {
         display: flex;
         margin: 10% 32%;
@@ -236,30 +238,44 @@ section.mobile{
     }
 
     button {
-        border-color: #0045e1;
+        border-color: #e1004b00;
         border-width: .125em;
-        color: #0045e1;
+        border-radius: 5px;
+        color: #000000;
         height: 2.5em;
         width: 7.5em;
-        background-color: #0043e100;
+        background-color: #ffffff;
         font-weight: 600;
     }
 }
-
+.background{
+    background: url(../images/background.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-left: 35%;
+    overflow: hidden;
+}
 section.hero {
-
+    overflow: hidden;
     @media screen and (max-width: 699px) {
             position: absolute;
             top: 25%;
+            color: white;
+            .appstore{
+                display: none;
+            }
             .side-line {
                 width: 40%;
                 border-width: .25px;
-                border-color: #2b2b2c9f;
+                border-color: #ffffff9f;
                 position: absolute;
                 top: 0;
                 margin-left:30%;
             }
-    
+            .changer{
+                display: none;
+            }
             .hero-content {
                 margin: 0 10%;
                 max-width: 100%;
@@ -271,41 +287,31 @@ section.hero {
                     word-wrap: break-word;
                     overflow: hidden;
                     line-height: 1.5em;
-                    margin-bottom: .5em;
+                    margin-bottom: .75em;
                 }
         
                 p {
                     font-size: 1em;
-                    font-weight: 600;
+                    font-weight: 300;
                     line-height: 1.5em;
                     word-spacing: .2em;
                     margin-bottom: 2em;
-                    color: #524D4D;
+                    color: #ffffff;
                 }
     
                 .gs-btn {
                     background-position: center;
-                    background-color: #0045E1;
+                    background-color: rgb(244, 57, 57);
                     height: 2.5em;
                     width: 9em;
-                    border-color: #0045e1;
+                    border-color: #ffffff00;
+                    border-radius: 10px;
                     color: white;
                     padding:10px;
-                    margin-right: 15px;
                     font-weight: 600;
                     font-size: 12x;
                     position: relative;
                     z-index: 1;
-                }
-        
-                .play-btn {
-                    background: url('../images/Play.svg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    height: 2.5em;
-                    width: 2.8em;
-                    border-color: #0045e1;
-                    padding: 10px;
                 }
             }
             .phone {
@@ -319,55 +325,20 @@ section.hero {
                 }
             }
     
-            .chat {
-                background-repeat: no-repeat;
-                position: absolute;
-                    right: 10%;
-                    bottom:5%;
-                    height: 2em;
-                    width: 2em;
-            }
-    
             .lines {
                 hr {
                    display: none;
                 }            
             }
-
-        #navigator {
-            div:hover{
-                cursor: pointer;
-            }
-            #left{
-                background-image: url("../images/cursur.svg");
-                background-repeat: no-repeat;
-                position: absolute;
-                    left: 10%;
-                    bottom:50%;
-                    height: 49px;
-                    width: 80%;
-            }
-
-            #right{
-                background-image: url("../images/cursur.svg");
-                background-repeat: no-repeat;
-                position: absolute;
-                transform: rotate(180deg);
-                    right: 10%;
-                    bottom:50%;
-                    height: 49px;
-                    width: 80%;
-            }
-        }
         
         }
 
     @media screen and (min-width: 700px) {
         
-        background-color: #EFEFEF;
+        background-color: #1D1D1D;
         height: 100vh;
         .hero-content {
-            margin-left: 6.8%;
+            margin-left: 9.5%;
             max-width: 350px;
             position: absolute;
             top: 30%;
@@ -384,30 +355,33 @@ section.hero {
 
         h1 {
             font-family: inherit;
-            font-size: 2.4em;
+            font-size: 2.5em;
             word-wrap: break-word;
             overflow: hidden;
             line-height: 1.5em;
             margin-bottom: .5em;
+            color: white;
+            width: 12.5em;
         }
 
         p {
             font-size: 1em;
-            font-weight: 600;
+            font-weight: 300;
             margin-bottom: 1em;
             line-height: 1.5em;
             word-spacing: .2em;
             width: 19em;
             margin-bottom: 2em;
-            color: #524D4D;
+            color: #ffffff;
         }
 
         .gs-btn {
             background-position: center;
-            background-color: #0045E1;
+            background-color: rgb(244, 57, 57);
             height: 2.5em;
             width: 9em;
-            border-color: #0045e1;
+            border-color: #ffffff00;
+            border-radius: 10px;
             color: white;
             padding:10px;
             margin-right: 15px;
@@ -426,10 +400,18 @@ section.hero {
             border-color: #0045e1;
             padding: 10px;
         }
-        
+        .appstore {
+            background-repeat: no-repeat;
+            img{
+                height: 35%;
+                width: 35%;
+                margin-right: 5px;
+                margin-top: 20%;
+            }
+        }
        .socials {
             display: flex;
-             margin-top: 30%;
+             margin-top: 25px;
             @media screen and (min-width: 700px) and (max-width: 900px) {
                 margin-top: 10%;
             }
@@ -451,78 +433,39 @@ section.hero {
                 background: url('../images/instagram.svg');
                 background-repeat: no-repeat;
             }
-
-            hr {
-                width: 45%;
-                border-width: .25px;
-                border-color: #0043e19f;
-                position: absolute;
-                top: 94.25%;
-                left: 35%;
-            }
         }
 
         .phone {
             display: flex;
             overflow: hidden;
-            height: 300px;
+            height: 150px;
             align-items: flex-end;
             svg {
                 position: absolute;
-                right: 20%;
+                right: 27.5%;
                 bottom: 0;
-                width: 38.9%;
+                width: 20%;
                 height: auto;
                 z-index: 1;
             }
         }
 
         .changer {
-            span {
-                hr {
-                    width: 25px;
-                    border-width: 1px;
-                    position: absolute;
-                    right: 7.8%;
+                color: #ffffff;
+                position: absolute;
+                right: 0;
+                top: 52.5%;
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    transform: rotate(90deg);
+                    li {
+                        display: inline-block;
+                        padding: 0 20px;
+                        text-transform: uppercase;
+                    }
                 }
-            }               
-            
-            span:hover {
-                cursor: pointer;
-                hr {border-width: 3px;}
-            }
-
-            .active {
-                width: 45px;
-                border-color: #0045e1;
-                background-color: #0045e1;
-                border-width: 1px;
-            }
-
-            .not_active {
-                width: 25px;
-                border-color: #0043e165;
-                background-color: #0043e165;
-            }
-            .r1{
-                top:35%;           
-            }
-            .r2{
-                top:42%;
-            }
-            .r3{
-                top:49%;
-            }
-            .r4{
-                top:56%;
-            }
-            .r5{
-                top:63%;
-            }
-            .r6{
-                top:70%;
-            }
-            
         }
         
         .chat {
