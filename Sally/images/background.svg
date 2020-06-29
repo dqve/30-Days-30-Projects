@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1072" height="610" viewBox="0 0 1072 610">
+  <defs>
+    <clipPath id="clip-background">
+      <rect width="1072" height="610"/>
+    </clipPath>
+  </defs>
+  <g id="background" clip-path="url(#clip-background)">
+    <rect width="1072" height="610" fill="rgba(29,29,29,0)"/>
+    <rect id="Rectangle_1505" data-name="Rectangle 1505" width="1000" height="1000" transform="matrix(0.875, -0.485, 0.485, 0.875, -149.222, -272.741)" fill="#0638a8"/>
+  </g>
+</svg>
