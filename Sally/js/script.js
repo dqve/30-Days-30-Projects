@@ -23,8 +23,6 @@ gsap.from(`.hero-content`, 1,{ opacity:0, x: -70} )
 gsap.from(`.phone`, 1,{ opacity:0, delay: .5, ease: "power3.out"} )
 gsap.from(`.changer`, 1,{ opacity:0, delay: 0.75,  y: -20, ease: "power3.out"} )
 
-gsap.from(`.chat`, 1,{ opacity:0, delay: 1.25,  y: 20, ease: "power3.out"} )
-
 
 const navigator = (i) => {
     console.log("click click")
