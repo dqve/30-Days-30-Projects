@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="1080" viewBox="0 0 375 1080">
+  <defs>
+    <clipPath id="clip-mobile-bg">
+      <rect width="375" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="mobile-bg" clip-path="url(#clip-mobile-bg)">
+    <rect width="375" height="1080" fill="#1d1d1d"/>
+    <rect id="Rectangle_1505" data-name="Rectangle 1505" width="1000" height="1000" transform="matrix(0.875, -0.485, 0.485, 0.875, -304.222, -365.741)" fill="#0638a8"/>
+  </g>
+</svg>
