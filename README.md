@@ -29,6 +29,6 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 *Design:* ["The Journey" on Dribble](https://dribbble.com/shots/12333601-The-Journey)
 
 
-**Day5:** [Saly](https://dqve.github.io/30-Days-30-Projects/Sally/)
+**Day5:** [Sally](https://dqve.github.io/30-Days-30-Projects/Sally/)
 *Repo:*   [Sally Repo](https://dqve.github.io/30-Days-30-Projects/Sally/)
 *Design:* ["Sally" on Dribble](https://dribbble.com/shots/12481431-Sally)
