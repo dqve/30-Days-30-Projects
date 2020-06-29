@@ -1,20 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="40" viewBox="0 0 175 85">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="53" viewBox="0 0 107 53">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.4" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#aaacf2"/>
-      <stop offset="1" stop-color="#162bed"/>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1c62"/>
+      <stop offset="1" stop-color="#800e31"/>
     </linearGradient>
+    <filter id="Ellipse_176" x="0" y="0" width="53" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
   </defs>
-  <g id="logo" transform="translate(-140 -44)">
-    <g id="Group_804" data-name="Group 804">
-      <circle id="Ellipse_12" data-name="Ellipse 12" cx="42.5" cy="42.5" r="42.5" transform="translate(140 44)" fill="url(#linear-gradient)"/>
-      <g id="Group_803" data-name="Group 803">
-        <text id="B" transform="translate(178 104)" fill="#fff" font-size="50" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">B</tspan></text>
-        <text id="B-2" data-name="B" transform="matrix(-1, 0, 0, 1, 187, 104)" fill="#fff" font-size="50" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">B</tspan></text>
-        <rect id="Rectangle_1489" data-name="Rectangle 1489" width="6" height="50" transform="translate(175 61)" fill="#fff"/>
-        <rect id="Rectangle_1490" data-name="Rectangle 1490" width="6" height="50" transform="translate(185 61)" fill="#fff"/>
+  <g id="logo" transform="translate(-182 -116.857)">
+    <g id="Group_44" data-name="Group 44" transform="translate(191 123)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6.14)" filter="url(#Ellipse_176)">
+        <circle id="Ellipse_176-2" data-name="Ellipse 176" cx="17.5" cy="17.5" r="17.5" transform="translate(9 6)" fill="url(#linear-gradient)"/>
       </g>
+      <path id="Path_1404" data-name="Path 1404" d="M1.47-10.332C1.806-8.776,4.158-6.37,9.7-6.37c5,0,7.392-2.292,7.392-4.217,0-2.009-1.932-3.509-5.586-4.047l-3.276-.481c-1.554-.226-2.31-.821-2.31-1.641,0-.934,1.344-1.811,3.36-1.811,3.192,0,4.032,1.557,4.2,2.264l3.486-.877c-.42-1.217-2.142-3.651-7.686-3.651-3.948,0-7.182,1.981-7.182,4.3,0,1.924,1.89,3.368,5.04,3.821l3.444.509c1.68.255,2.6.906,2.6,1.755,0,.962-1.218,1.811-3.444,1.811-2.856,0-4.452-1.132-4.7-2.547Z" transform="translate(8.496 31.193)" fill="#fff"/>
     </g>
-    <text id="Bitfly" transform="translate(237 98)" fill="#0045e1" font-size="35" font-family="CenturyGothic-BoldItalic, Century Gothic" font-weight="700" font-style="italic"><tspan x="0" y="0">Bitfly</tspan></text>
+    <text id="Sally" transform="translate(266 150.857)" fill="#fbfbfb" font-size="21" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.02" y="0">Sally</tspan></text>
   </g>
 </svg>
