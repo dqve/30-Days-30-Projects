@@ -17,11 +17,11 @@ const right = document.querySelector("#right")
 
 //loading animation
 //logo : nav : hero&social : phone <> changer="one by one" <> chat
-gsap.from(`#lv`, 1,{ opacity:0, x: -70} )
-gsap.from(`#rv`, 1.5,{ opacity:0, x: 70} )
-gsap.from(`.hero-content`, 1,{ opacity:0, x: -70} )
-gsap.from(`.phone`, 1,{ opacity:0, delay: .5, ease: "power3.out"} )
-gsap.from(`.changer`, 1,{ opacity:0, delay: 0.75,  y: -20, ease: "power3.out"} )
+gsap.from(`#lv`, 2,{ opacity:0, x: -70} )
+gsap.from(`#rv`, 2.5,{ opacity:0, x: 70} )
+gsap.from(`.hero-content`, 2,{ opacity:0, x: -70} )
+gsap.from(`.phone`, 1.75,{ opacity:0, delay: .5, ease: "power3.out"} )
+gsap.from(`.changer`, 1.5,{ opacity:0, delay: 0.75,  y: -20, ease: "power3.out"} )
 
 
 const navigator = (i) => {
