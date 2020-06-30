@@ -30,9 +30,6 @@ body {
     width: 100%;
     border-color: rgba(255, 255, 255, 0);
   }
-  body .lines {
-    display: none;
-  }
   body section.mobile {
     display: block;
   }
@@ -151,14 +148,6 @@ button {
     float: left;
     margin-top: 1%;
   }
-  header .left-nav .search {
-    background: url("../images/search.svg");
-    height: 8em;
-    width: 12em;
-    background-repeat: no-repeat;
-    margin-left: 1%;
-    margin-top: 1%;
-  }
   header nav {
     color: #ffffff8f;
     position: absolute;
@@ -172,16 +161,6 @@ button {
   header nav ul li {
     display: inline-block;
     padding: 10px 20px;
-  }
-  header nav button {
-    border-color: #ffffff;
-    border-width: .125em;
-    color: #000000;
-    border-radius: 5px;
-    height: 2.5em;
-    width: 7.5em;
-    background-color: #ffffff;
-    font-weight: 600;
   }
 }
 
@@ -229,14 +208,6 @@ section.mobile ul li {
   display: block;
   max-width: 10000px;
   padding: 10px 20px;
-}
-
-section.mobile .appstore {
-  background-repeat: no-repeat;
-}
-
-section.mobile .appstore img {
-  margin: 5% 20%;
 }
 
 section.mobile .socials {
@@ -301,23 +272,12 @@ section.hero {
     top: 25%;
     color: white;
   }
-  section.hero .appstore {
-    display: none;
-  }
-  section.hero .side-line {
-    width: 40%;
-    border-width: .25px;
-    border-color: #ffffff9f;
-    position: absolute;
-    top: 0;
-    margin-left: 30%;
-  }
-  section.hero .changer {
-    display: none;
-  }
   section.hero .hero-content {
     margin: 0 10%;
     max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
   section.hero .hero-content h1 {
@@ -362,8 +322,16 @@ section.hero {
     background-repeat: no-repeat;
     background-position: center;
     height: 3.2em;
-    width: 3.2em;
+    width: 3.5em;
     border-color: rgba(150, 150, 150, 0);
+  }
+  section.hero .hero-content .status {
+    background-color: #00000073;
+    max-width: 125px;
+    color: white;
+    text-align: center;
+    margin: 0 30%;
+    border-radius: 25px;
   }
   section.hero .phone {
     margin: 0 10%;
@@ -374,9 +342,6 @@ section.hero {
   section.hero .phone svg {
     width: 100%;
     height: 100%;
-  }
-  section.hero .lines hr {
-    display: none;
   }
 }
 
@@ -412,13 +377,6 @@ section.hero {
     text-align: center;
     padding: 9px;
     border-radius: 25px;
-  }
-  section.hero .side-line {
-    width: 4.2%;
-    border-width: .5px;
-    border-color: #00000067;
-    position: absolute;
-    top: 35%;
   }
   section.hero h1 {
     font-family: "palatino";
@@ -468,15 +426,6 @@ section.hero {
     height: 3.2em;
     width: 3.2em;
     border-color: rgba(150, 150, 150, 0);
-  }
-  section.hero .appstore {
-    background-repeat: no-repeat;
-  }
-  section.hero .appstore img {
-    height: 35%;
-    width: 35%;
-    margin-right: 5px;
-    margin-top: 20%;
   }
   section.hero .socials {
     display: -webkit-box;
@@ -529,43 +478,5 @@ section.hero {
     right: 170px;
     bottom: 120px;
   }
-}
-
-.lines hr {
-  width: 100%;
-  border-width: 0.1px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  border-color: #7070702a;
-  position: fixed;
-  top: 0;
-}
-
-.lines .l1 {
-  left: 460px;
-}
-
-.lines .l2 {
-  left: 310px;
-}
-
-.lines .l3 {
-  left: 160px;
-}
-
-.lines .l4 {
-  left: 10px;
-}
-
-.lines .l5 {
-  left: -140px;
-}
-
-.lines .l6 {
-  left: -290px;
-}
-
-.lines .l7 {
-  left: -440px;
 }
 /*# sourceMappingURL=style.css.map */
