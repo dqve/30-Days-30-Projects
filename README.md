@@ -12,23 +12,32 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 <hr></hr>
 
-**Day1:** [Bitfly](https://dqve.github.io/30-Days-30-Projects/Bitfly/)
-*Repo:*   [Bitfly Repo](https://dqve.github.io/30-Days-30-Projects/Bitfly/)
-*Design:* [Bitfly on Dribble](https://dribbble.com/shots/12223327-Bitfly)
+**Day1:** 
+*Link to website:* [Bitfly](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
+*Link to repo:*    [Bitfly Repo](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
+*Link to design:*  [Bitfly on Dribble](https://dribbble.com/shots/12223327-Bitfly)
 
-**Day2:** [Blogative](https://bit.ly/2Z294Jq)
-*Repo:*   [Blogative Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Blogative)
-*Design:* [Blogative on Dribble](https://dribbble.com/shots/12262291-Blogative)
+### Day2: 
+*Link to website:* [Blogative](https://bit.ly/2Z294Jq),
+*Link to repo:*    [Blogative Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Blogative),
+*Link to design:*  [Blogative on Dribble](https://dribbble.com/shots/12262291-Blogative)
 
-**Day3:** [Define Design](https://dqve.github.io/30-Days-30-Projects/Define%20Design/)
-*Repo:*   [Define Design Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Define%20Design)
-*Design:* ["Define Design" on Dribble](https://dribbble.com/shots/12300923-Define-Design)
+### Day3:
+*Link to website:* [Define Design](https://dqve.github.io/30-Days-30-Projects/Define%20Design/),
+*Link to repo:*    [Define Design Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Define%20Design),
+*Link to design:*  ["Define Design" on Dribble](https://dribbble.com/shots/12300923-Define-Design)
 
-**Day4:** [The Journey](https://dqve.github.io/30-Days-30-Projects/The%20Journey/)
-*Repo:*   [The Journey Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/The%20Journey)
-*Design:* ["The Journey" on Dribble](https://dribbble.com/shots/12333601-The-Journey)
+### Day4:
+*Link to website:* [The Journey](https://dqve.github.io/30-Days-30-Projects/The%20Journey/),
+*Link to repo:*    [The Journey Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/The%20Journey),
+*Link to design:*  ["The Journey" on Dribble](https://dribbble.com/shots/12333601-The-Journey)
 
+### Day5: 
+*Link to website:* [Sally](https://dqve.github.io/30-Days-30-Projects/Sally/),
+*Link to repo:*    [Sally Repo](https://dqve.github.io/30-Days-30-Projects/Sally/),
+*Link to design:*  [Sally on Dribble](https://dribbble.com/shots/12481431-Sally)
 
-**Day5:** [Sally](https://dqve.github.io/30-Days-30-Projects/Sally/)
-*Repo:*   [Sally Repo](https://dqve.github.io/30-Days-30-Projects/Sally/)
-*Design:* ["Sally" on Dribble](https://dribbble.com/shots/12481431-Sally)
+### Day6:
+*Link to website:* [Signet](https://dqve.github.io/30-Days-30-Projects/Sally/),
+*Link to repo:*    [Signet Repo](https://dqve.github.io/30-Days-30-Projects/Sally/),
+*Link to design:*  [Signet on Dribble](https://dribbble.com/shots/12481431-Sally)
