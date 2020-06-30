@@ -1,8 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'palatino';
+  src: local("palatino"), url("../fonts/pala.woff") format("linotype");
+}
+
+@font-face {
+  font-family: 'Segoe-ui-regular';
+  src: local("Segoe-ui-regular"), url("../fonts/SegoePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Segoe-ui';
+  src: local("Segoe-ui-semibold"), url("../fonts/SegoePro-Semibold.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Segoe-ui-regular';
   line-height: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11,9 +25,10 @@ body {
 @media screen and (max-width: 769px) {
   body {
     background: url("../images/mobile-bg.svg");
-    background-repeat: no-repeat;
+    overflow-x: hidden;
     height: auto;
     width: 100%;
+    border-color: rgba(255, 255, 255, 0);
   }
   body .lines {
     display: none;
@@ -36,6 +51,7 @@ hr {
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
+  text-shadow: 2.5px 3px #5353535e;
 }
 
 nav, button {
@@ -78,7 +94,7 @@ button {
     background: url("../images/logo.svg");
     background-repeat: no-repeat;
     height: 4em;
-    width: 8em;
+    width: 9em;
     float: left;
     margin-top: 10px;
   }
@@ -106,7 +122,7 @@ button {
     left: 0;
     right: 0;
     z-index: 2;
-    padding: 50px;
+    padding: 40px;
     margin: 0 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -131,7 +147,7 @@ button {
     background: url("../images/logo.svg");
     background-repeat: no-repeat;
     height: 4em;
-    width: 8em;
+    width: 9em;
     float: left;
     margin-top: 1%;
   }
@@ -144,9 +160,9 @@ button {
     margin-top: 1%;
   }
   header nav {
-    color: #ffffff;
+    color: #ffffff8f;
     position: absolute;
-    right: 1.5%;
+    left: 35%;
   }
   header nav ul {
     margin: 0;
@@ -175,7 +191,7 @@ section.mobile {
           box-sizing: inherit;
   position: fixed;
   right: 0;
-  width: 75%;
+  width: 100%;
   height: 100%;
   margin: auto;
   padding: 20px;
@@ -183,7 +199,7 @@ section.mobile {
   -webkit-box-shadow: -200px 5px 100px #00000033;
           box-shadow: -200px 5px 100px #00000033;
   z-index: 20;
-  background-color: #353535;
+  background-color: #808080;
 }
 
 section.mobile .menu {
@@ -275,15 +291,6 @@ section.mobile button {
   font-weight: 600;
 }
 
-.background {
-  background: url(../images/background.svg);
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  margin-left: 35%;
-  overflow: hidden;
-}
-
 section.hero {
   overflow: hidden;
 }
@@ -314,34 +321,49 @@ section.hero {
     text-align: center;
   }
   section.hero .hero-content h1 {
-    font-family: inherit;
+    font-family: "palatino";
     font-size: 200%;
     word-wrap: break-word;
     overflow: hidden;
+    font-weight: 600;
     line-height: 1.5em;
     margin-bottom: .75em;
   }
   section.hero .hero-content p {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.5em;
     word-spacing: .2em;
     margin-bottom: 2em;
     color: #ffffff;
   }
-  section.hero .hero-content .gs-btn {
+  section.hero .hero-content .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10% 20%;
+  }
+  section.hero .hero-content .buttons .gs-btn {
     background-position: center;
-    background-color: #f43939;
+    background-color: white;
     height: 2.5em;
-    width: 9em;
+    width: 7.5em;
     border-color: #ffffff00;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
+    border-radius: 25px;
+    color: #404040;
+    margin-right: 15px;
     font-weight: 600;
     font-size: 12x;
-    position: relative;
     z-index: 1;
+    margin-top: 5px;
+  }
+  section.hero .hero-content .buttons .play-btn {
+    background: url("../images/play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3.2em;
+    width: 3.2em;
+    border-color: rgba(150, 150, 150, 0);
   }
   section.hero .phone {
     margin: 0 10%;
@@ -360,15 +382,36 @@ section.hero {
 
 @media screen and (min-width: 700px) {
   section.hero {
-    background-color: #1D1D1D;
+    background: url(../images/signet-bg.svg);
     height: 100vh;
   }
   section.hero .hero-content {
     margin-left: 9.5%;
-    max-width: 350px;
+    max-width: 450px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     z-index: 9;
+    overflow: hidden;
+  }
+  section.hero .background {
+    overflow: hidden;
+    background: url("../images/indicator1.png");
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 800px;
+    position: absolute;
+    bottom: 2.5%;
+    right: 10%;
+    overflow: hidden;
+    opacity: 0.69;
+  }
+  section.hero .status {
+    background-color: #00000073;
+    max-width: 125px;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    border-radius: 25px;
   }
   section.hero .side-line {
     width: 4.2%;
@@ -378,14 +421,15 @@ section.hero {
     top: 35%;
   }
   section.hero h1 {
-    font-family: inherit;
-    font-size: 2.5em;
+    font-family: "palatino";
+    font-size: 3.5em;
+    font-weight: 400;
     word-wrap: break-word;
     overflow: hidden;
     line-height: 1.5em;
     margin-bottom: .5em;
     color: white;
-    width: 12.5em;
+    width: 10em;
   }
   section.hero p {
     font-size: 1em;
@@ -395,31 +439,35 @@ section.hero {
     word-spacing: .2em;
     width: 19em;
     margin-bottom: 2em;
-    color: #ffffff;
+    color: #ffffff8f;
   }
-  section.hero .gs-btn {
+  section.hero .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  section.hero .buttons .gs-btn {
     background-position: center;
-    background-color: #f43939;
-    height: 2.5em;
-    width: 9em;
+    background-color: white;
+    height: 3em;
+    width: 7.5em;
     border-color: #ffffff00;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
+    border-radius: 25px;
+    color: #404040;
     margin-right: 15px;
     font-weight: 600;
     font-size: 12x;
-    position: relative;
     z-index: 1;
+    margin-top: 5px;
   }
-  section.hero .play-btn {
-    background: url("../images/Play.svg");
+  section.hero .buttons .play-btn {
+    background: url("../images/play.svg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 2.5em;
-    width: 2.8em;
-    border-color: #0045e1;
-    padding: 10px;
+    height: 3.2em;
+    width: 3.2em;
+    border-color: rgba(150, 150, 150, 0);
   }
   section.hero .appstore {
     background-repeat: no-repeat;
@@ -434,7 +482,7 @@ section.hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 25px;
+    margin-top: 35%;
   }
 }
 
@@ -464,49 +512,22 @@ section.hero {
     background-repeat: no-repeat;
   }
   section.hero .phone {
+    background-repeat: no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    height: 150px;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    z-index: 1;
   }
-  section.hero .phone svg {
-    position: absolute;
-    right: 27.5%;
-    bottom: 0;
-    width: 20%;
+  section.hero .phone img {
+    width: 50%;
     height: auto;
-    z-index: 1;
-  }
-  section.hero .changer {
-    color: #ffffff;
     position: absolute;
-    right: 0;
-    top: 52.5%;
-  }
-  section.hero .changer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-  section.hero .changer ul li {
-    display: inline-block;
-    padding: 0 20px;
-    text-transform: uppercase;
-  }
-  section.hero .chat {
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 10%;
-    bottom: 15%;
-    height: .1em;
-    width: .3em;
-    z-index: 1;
+    right: 170px;
+    bottom: 120px;
   }
 }
 
