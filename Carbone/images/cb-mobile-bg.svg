@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="1080" viewBox="0 0 375 1080">
+  <defs>
+    <clipPath id="clip-cb-mobile-bg">
+      <rect width="375" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="cb-mobile-bg" clip-path="url(#clip-cb-mobile-bg)">
+    <rect width="375" height="1080" fill="#32322e"/>
+  </g>
+</svg>
