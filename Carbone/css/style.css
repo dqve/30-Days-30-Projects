@@ -1,17 +1,31 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'palatino';
+  src: local("palatino"), url("../fonts/pala.woff") format("linotype");
+}
+
+@font-face {
+  font-family: 'Segoe-ui-regular';
+  src: local("Segoe-ui-regular"), url("../fonts/SegoePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Segoe-ui';
+  src: local("Segoe-ui-semibold"), url("../fonts/SegoePro-Semibold.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
   line-height: 1;
+  font-weight: 500;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 @media screen and (max-width: 769px) {
   body {
-    background: url("../images/bitfly Mobile – 1.svg");
+    background: url("../images/cb-mobile-bg.svg");
   }
   body .lines {
     display: none;
@@ -34,6 +48,16 @@ hr {
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
+  color: white;
+}
+
+h1 {
+  font-family: 'palatino';
+  font-weight: 600;
+}
+
+p, li {
+  font-family: 'Segoe-ui-regular';
 }
 
 nav, button {
@@ -54,8 +78,8 @@ button {
     left: 0;
     right: 0;
     z-index: 2;
-    padding: 20px;
-    margin: 0 5%;
+    padding: 20px 20px 20px 0;
+    margin: 0 5% 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -73,11 +97,12 @@ button {
     list-style: none;
   }
   header .left-nav .logo {
-    background: url("../images/logo.svg");
+    background: url("../images/logo.png");
     background-repeat: no-repeat;
     height: 4em;
     width: 8em;
     float: left;
+    padding-left: 0;
     margin-top: 10px;
   }
   header .left-nav .search {
@@ -180,15 +205,15 @@ section.mobile {
           box-sizing: inherit;
   position: fixed;
   right: 0;
-  width: 75%;
+  width: 100%;
   height: 100%;
   margin: auto;
   padding: 20px;
-  border-left: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e000;
   -webkit-box-shadow: -200px 5px 100px #00000033;
           box-shadow: -200px 5px 100px #00000033;
   z-index: 20;
-  background-color: whitesmoke;
+  background-color: #1E1E1E;
 }
 
 section.mobile .menu {
@@ -206,7 +231,7 @@ section.mobile ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #0045e1;
+  color: #ffffff;
 }
 
 section.mobile ul li {
@@ -224,7 +249,13 @@ section.mobile .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10% 32%;
+  margin: 10% 35%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 section.mobile .socials div {
@@ -261,63 +292,55 @@ section.mobile .toggle {
   cursor: pointer;
 }
 
-section.mobile button {
-  border-color: #0045e1;
-  border-width: .125em;
-  color: #0045e1;
-  height: 2.5em;
-  width: 7.5em;
-  background-color: #0043e100;
-  font-weight: 600;
-}
-
 @media screen and (max-width: 699px) {
   section.hero {
     position: absolute;
     top: 25%;
   }
   section.hero .side-line {
-    width: 40%;
-    border-width: .25px;
-    border-color: #2b2b2c9f;
-    position: absolute;
-    top: 0;
-    margin-left: 30%;
+    display: none;
   }
   section.hero .hero-content {
     margin: 0 10%;
     max-width: 100%;
     text-align: center;
   }
+  section.hero .hero-content .dot {
+    color: #FFD700;
+    font-size: 600;
+  }
   section.hero .hero-content h1 {
     font-family: inherit;
-    font-size: 200%;
+    font-size: 250%;
     word-wrap: break-word;
     overflow: hidden;
+    font-weight: 500;
     line-height: 1.5em;
     margin-bottom: .5em;
   }
   section.hero .hero-content p {
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 200;
     line-height: 1.5em;
     word-spacing: .2em;
     margin-bottom: 2em;
-    color: #524D4D;
+    color: #ffffff;
   }
   section.hero .hero-content .gs-btn {
+    font-family: 'Segoe-ui-regular';
+    font-weight: 600;
     background-position: center;
-    background-color: #0045E1;
+    background-color: white;
     height: 2.5em;
-    width: 9em;
-    border-color: #0045e1;
-    color: white;
-    padding: 10px;
+    width: 7.5em;
+    border-color: #ffffff00;
+    border-radius: 25px;
+    color: #404040;
     margin-right: 15px;
     font-weight: 600;
     font-size: 12x;
-    position: relative;
     z-index: 1;
+    margin-top: 5px;
   }
   section.hero .hero-content .play-btn {
     background: url("../images/Play.svg");
