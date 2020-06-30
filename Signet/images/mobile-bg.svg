@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="1080" viewBox="0 0 375 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504" height="1080" viewBox="0 0 504 1080">
   <defs>
-    <clipPath id="clip-mobile-bg">
-      <rect width="375" height="1080"/>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1508" data-name="Rectangle 1508" width="504" height="1080" fill="#1d1d1d"/>
     </clipPath>
   </defs>
-  <g id="mobile-bg" clip-path="url(#clip-mobile-bg)">
-    <rect width="375" height="1080" fill="#1d1d1d"/>
-    <rect id="Rectangle_1505" data-name="Rectangle 1505" width="1000" height="1000" transform="matrix(0.875, -0.485, 0.485, 0.875, -304.222, -365.741)" fill="#0638a8"/>
+  <g id="mobile-bg" clip-path="url(#clip-path)">
+    <rect id="Rectangle_1507" data-name="Rectangle 1507" width="504" height="1080" fill="#1d1d1d"/>
+    <path id="Rectangle_1505" data-name="Rectangle 1505" d="M0,0,1263.151,145.861,1409.012,1226.71,145.861,1080.849Z" transform="translate(-408.874 -365.741) rotate(-28.999)" fill="#1d1d1d"/>
   </g>
 </svg>
