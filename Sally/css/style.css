@@ -472,6 +472,8 @@ section.hero {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    -webkit-box-shadow: 20px 20px black;
+            box-shadow: 20px 20px black;
   }
   section.hero .phone svg {
     position: absolute;
