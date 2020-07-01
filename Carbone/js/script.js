@@ -5,29 +5,33 @@
 *
 */
 
-//text slider registration
-gsap.registerPlugin(TextPlugin);
-
-//get elements
-const changers = document.querySelectorAll(".changer hr")
-const title = document.querySelector(".hero-content h1")
-const hero_text = document.querySelector(".hero-content p")
-const left = document.querySelector("#left")
-const right = document.querySelector("#right")
-
 //loading animation
 //logo : nav : hero&social : phone <> changer="one by one" <> chat
 gsap.from(`#lv`, 1,{ opacity:0, x: -70} )
-gsap.from(`#rv`, 1.5,{ opacity:0, x: 70} )
-gsap.from(`.hero-content`, 1,{ opacity:0, x: -70} )
+gsap.from(`#rv`, 1.5,{ opacity:0, y: -70} )
+gsap.from(`#menu`, 1.5,{ opacity:0, x: 70} )
+//gsap.from(`.hero-content`, 1,{ opacity:0, x: -70} )
 gsap.from(`.phone`, 1,{ opacity:0, delay: .5, ease: "power3.out"} )
-for(changer of changers){
-    gsap.from(`#${changer.id}`, 1,{ opacity:0, delay: 1.05,  y: -20, ease: "power3.out"} )
-}
-gsap.from(`.chat`, 1,{ opacity:0, delay: 1.25,  y: 20, ease: "power3.out"} )
+gsap.from(`.socials`, 1,{ opacity:0, delay: 1.25,  x: 70, ease: "power3.out"} )
+gsap.from(`.side-line`, 1,{ opacity:0, delay: 1.25, ease: "power3.out"} )
 
+gsap.from('.hero-content h1, .status', 1.7, {
+    delay: .01,
+    opacity: 0,
+    y: 500,
+    ease: Circ.easeInOut
+  })
 
-    //small screen menu bar
+ gsap.from('.hero-content p, .gs-btn', 1.75, {
+    delay: .09,
+    opacity: 0,
+    y: 550,
+    ease: Circ.easeInOut
+  })
+
+  gsap.from(`.hero-content`, 1,{ opacity:0, x: -70} )
+
+//small screen menu bar
     const tween = gsap.from(".mobile", 0.5, {
         opacity: 0,
         height: 0,
