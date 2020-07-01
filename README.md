@@ -12,7 +12,7 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 <hr></hr>
 
-**Day1:** 
+### Day1: 
 *Link to website:* [Bitfly](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
 *Link to repo:*    [Bitfly Repo](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
 *Link to design:*  [Bitfly on Dribble](https://dribbble.com/shots/12223327-Bitfly)
@@ -41,3 +41,8 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 *Link to website:* [Signet](https://dqve.github.io/30-Days-30-Projects/Sally/),
 *Link to repo:*    [Signet Repo](https://dqve.github.io/30-Days-30-Projects/Sally/),
 *Link to design:*  [Signet on Dribble](https://dribbble.com/shots/12481431-Sally)
+
+### Day7:
+*Link to website:* [Carbone](https://dqve.github.io/30-Days-30-Projects/Carbone/),
+*Link to repo:*    [Carbone Repo](https://dqve.github.io/30-Days-30-Projects/Carbone/),
+*Link to design:*  [Carbone on Dribble](#)
