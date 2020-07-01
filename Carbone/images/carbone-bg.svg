@@ -7,19 +7,19 @@
   <g id="carbone_web_1" data-name="carbone web – 1" clip-path="url(#clip-path)">
     <rect id="Rectangle_1517" data-name="Rectangle 1517" width="1440" height="768" fill="#32322e"/>
     <g id="Group_2327" data-name="Group 2327" transform="translate(-0.001)">
-      <path id="Sally_Show_case" data-name="Sally Show case" d="M0,0H1440V768H0Z" transform="translate(0.189)" fill="#32322e" opacity="0.56"/>
+      <path id="Sally_Show_case" data-name="Sally Show case" d="M0,0H1440V768H0Z" transform="translate(089)" fill="#32322e" opacity="0.56"/>
       <path id="Sally_Show_case-2" data-name="Sally Show case" d="M1920,1080Z" transform="translate(-479.811 -312)" fill="#32322e"/>
-      <line id="Line_30" data-name="Line 30" x2="1035.563" y2="763.172" transform="translate(0.001 5.183)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0.3"/>
-      <line id="Line_31" data-name="Line 31" x2="884.813" y2="662.569" transform="translate(0.001 105.787)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0.3"/>
-      <line id="Line_32" data-name="Line 32" x2="734.063" y2="561.964" transform="translate(0.001 206.391)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0.3"/>
-      <line id="Line_33" data-name="Line 33" x2="596.063" y2="461.36" transform="translate(0.001 306.996)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0.3"/>
-      <line id="Line_34" data-name="Line 34" y1="222.731" x2="544.594" transform="translate(192.892 296.235) rotate(60)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0.3"/>
-      <line id="Line_25" data-name="Line 25" x2="1035.563" y2="763.172" transform="translate(0.001 5.183)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
-      <line id="Line_26" data-name="Line 26" x2="884.813" y2="662.569" transform="translate(0.001 105.787)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
-      <line id="Line_27" data-name="Line 27" x2="734.063" y2="561.964" transform="translate(0.001 206.391)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
-      <line id="Line_28" data-name="Line 28" x2="596.063" y2="461.36" transform="translate(0.001 306.996)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
-      <line id="Line_29" data-name="Line 29" y1="222.731" x2="544.594" transform="translate(192.892 296.235) rotate(60)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
-      <line id="Line_35" data-name="Line 35" x2="332.813" y2="260.489" transform="translate(0.001 507.867)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.5"/>
+      <line id="Line_30" data-name="Line 30" x2="1035.563" y2="763.172" transform="translate(0.001 5.183)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0"/>
+      <line id="Line_31" data-name="Line 31" x2="884.813" y2="662.569" transform="translate(0.001 105.787)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0"/>
+      <line id="Line_32" data-name="Line 32" x2="734.063" y2="561.964" transform="translate(0.001 206.391)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0"/>
+      <line id="Line_33" data-name="Line 33" x2="596.063" y2="461.36" transform="translate(0.001 306.996)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0"/>
+      <line id="Line_34" data-name="Line 34" y1="222.731" x2="544.594" transform="translate(192.892 296.235) rotate(60)" fill="none" stroke="#ff0" stroke-width="0.5" opacity="0"/>
+      <line id="Line_25" data-name="Line 25" x2="1035.563" y2="763.172" transform="translate(0.001 5.183)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
+      <line id="Line_26" data-name="Line 26" x2="884.813" y2="662.569" transform="translate(0.001 105.787)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
+      <line id="Line_27" data-name="Line 27" x2="734.063" y2="561.964" transform="translate(0.001 206.391)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
+      <line id="Line_28" data-name="Line 28" x2="596.063" y2="461.36" transform="translate(0.001 306.996)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
+      <line id="Line_29" data-name="Line 29" y1="222.731" x2="544.594" transform="translate(192.892 296.235) rotate(60)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
+      <line id="Line_35" data-name="Line 35" x2="332.813" y2="260.489" transform="translate(0.001 507.867)" fill="none" stroke="gold" stroke-width="0.5" opacity="0.25"/>
     </g>
   </g>
 </svg>
