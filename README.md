@@ -45,4 +45,4 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 ### Day7:
 *Link to website:* [Carbone](https://dqve.github.io/30-Days-30-Projects/Carbone/),
 *Link to repo:*    [Carbone Repo](https://dqve.github.io/30-Days-30-Projects/Carbone/),
-*Link to design:*  [Carbone on Dribble](#)
+*Link to design:*  [Carbone on Dribble](https://dribbble.com/shots/12588412-Carbone)
