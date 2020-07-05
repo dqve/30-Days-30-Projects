@@ -14,7 +14,7 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 ### Day1: 
 *Link to website:* [Bitfly](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
-*Link to repo:*    [Bitfly Repo](https://dqve.github.io/30-Days-30-Projects/Bitfly/),
+*Link to repo:*    [Bitfly Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Bitfly),
 *Link to design:*  [Bitfly on Dribble](https://dribbble.com/shots/12223327-Bitfly)
 
 ### Day2: 
