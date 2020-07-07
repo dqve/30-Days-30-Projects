@@ -6,7 +6,7 @@ All landing pages will be designed in AdobeXD first then implemented as a websit
 
 I did this because I thought it would be fun!.
 
-I started this challenge on **23rd of June 2020** to paused on the  **1st of July 2020** 
+I started this challenge on **23rd of June 2020** paused on the **1st of July 2020** 
 
 I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [LinkedIn](https://www.linkedin.com/in/david-ayo/).
 
