@@ -6,7 +6,7 @@ All landing pages will be designed in AdobeXD first then implemented as a websit
 
 I did this because I thought it would be fun!.
 
-I started this challenge on **23rd of June 2020** to finish on the  **14th of July 2020** 
+I started this challenge on **23rd of June 2020** to paused on the  **1st of July 2020** 
 
 I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [LinkedIn](https://www.linkedin.com/in/david-ayo/).
 
@@ -39,10 +39,10 @@ I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [Lin
 
 ### Day6:
 *Link to website:* [Signet](https://dqve.github.io/30-Days-30-Projects/Sally/),
-*Link to repo:*    [Signet Repo](https://dqve.github.io/30-Days-30-Projects/Sally/),
+*Link to repo:*    [Signet Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Sally/),
 *Link to design:*  [Signet on Dribble](https://dribbble.com/shots/12481431-Sally)
 
 ### Day7:
 *Link to website:* [Carbone](https://dqve.github.io/30-Days-30-Projects/Carbone/),
-*Link to repo:*    [Carbone Repo](https://dqve.github.io/30-Days-30-Projects/Carbone/),
+*Link to repo:*    [Carbone Repo](https://github.com/dqve/30-Days-30-Projects/tree/master/Carbone/),
 *Link to design:*  [Carbone on Dribble](https://dribbble.com/shots/12588412-Carbone)
