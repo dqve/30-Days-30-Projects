@@ -1,14 +1,14 @@
-# 30 Days 30Projects
+# 7Projects
 
-This repo includes my the projects for my **#30Days30Projects challenge**. 
+This repo includes projects for a **challenge**. 
 The projects are developed mainly with HTML, CSS, JavaScript most of the ideas are website landing pages implementing a particular programming paradigm / skill.
 All landing pages will be designed in AdobeXD first then implemented as a website.
 
 I did this because I thought it would be fun!.
 
-This challenge began on the **23rd of June 2020** was temporarily paused on the **1st of July 2020** 
+This challenge spanned from **23rd of June 2020** to the **1st of July 2020** 
 
-I am sharing each day's progress on [Twitter](https://twitter.com/dqve) and [LinkedIn](https://www.linkedin.com/in/david-ayo/).
+I am sharing each day's progress on [Twitter](https://twitter.com/dqve).
 
 <hr></hr>
 
